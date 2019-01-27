@@ -8,6 +8,12 @@ Clone this into ~/.local/share/chezmoi
 chezmoi add ~/.config/alacritty/alacritty.yml
 ```
 
+Change permission
+
+```
+chmod 700 ./chezmoi/
+```
+
 Apply the changes
 
 ```
