@@ -8,6 +8,12 @@ Clone this into ~/.local/share/chezmoi
 chezmoi add ~/.config/alacritty/alacritty.yml
 ```
 
+Apply the changes
+
+```
+chezmoi -v apply
+```
+
 Commit:
 
 ```
