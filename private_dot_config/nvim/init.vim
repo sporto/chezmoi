@@ -10,13 +10,15 @@ if dein#load_state('~/.cache/dein')
   call dein#begin('~/.cache/dein')
 
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-  call dein#add('editorconfig/editorconfig-vim')
   call dein#add('ElmCast/elm-vim')
+  call dein#add('Shougo/deoplete.nvim')
+  call dein#add('editorconfig/editorconfig-vim')
   call dein#add('flazz/vim-colorschemes')
+  call dein#add('~/.fzf/') 
+  call dein#add('junegunn/fzf.vim') " Fuzzy finder
   call dein#add('mattn/emmet-vim')
   call dein#add('sandeepcr529/Buffet.vim')
   call dein#add('scrooloose/nerdtree')
-  call dein#add('Shougo/deoplete.nvim')
   call dein#add('talek/obvious-resize')
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
@@ -59,6 +61,12 @@ map <C-x> :vsplit<CR>
 
 " Buffet
 map <C-b> :Bufferlist<cr>
+
+" Find files
+nnoremap <C-p> :Files<Cr>
+
+" Find in files
+nnoremap <C-g> :Rg<Cr>
 
 " ********************************************************************
 " Colours
