@@ -11,7 +11,7 @@ chezmoi add ~/.config/alacritty/alacritty.yml
 Change permission
 
 ```
-chmod 700 ./chezmoi/
+chmod 700  ~/.local/share/chezmoi/
 ```
 
 Apply the changes
