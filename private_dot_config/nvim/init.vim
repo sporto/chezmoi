@@ -10,7 +10,7 @@ if dein#load_state('~/.cache/dein')
   call dein#begin('~/.cache/dein')
 
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-  call dein#add('ElmCast/elm-vim')
+  call dein#add('neoclide/coc.nvim', {'merge':0, 'rev': 'release'})
   call dein#add('Shougo/deoplete.nvim')
   call dein#add('editorconfig/editorconfig-vim')
   call dein#add('flazz/vim-colorschemes')
