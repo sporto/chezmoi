@@ -14,8 +14,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('Shougo/deoplete.nvim')
   call dein#add('editorconfig/editorconfig-vim')
   call dein#add('flazz/vim-colorschemes')
-  call dein#add('~/.fzf/') 
-  call dein#add('junegunn/fzf.vim') " Fuzzy finder
+  call dein#add('lotabout/skim') " Fuzzy finder
   call dein#add('mattn/emmet-vim')
   call dein#add('sandeepcr529/Buffet.vim')
   call dein#add('scrooloose/nerdtree')
@@ -63,7 +62,7 @@ map <C-x> :vsplit<CR>
 map <C-b> :Bufferlist<cr>
 
 " Find files
-nnoremap <C-p> :Files<Cr>
+nnoremap <C-p> :SK<Cr>
 
 " Find in files
 nnoremap <C-g> :Rg<Cr>
