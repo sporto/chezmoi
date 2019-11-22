@@ -1,4 +1,6 @@
+" ********************************************************************
 " dein plugin manager
+" ********************************************************************
 
 if &compatible
   set nocompatible
@@ -37,6 +39,15 @@ endif
 
 filetype plugin indent on
 syntax enable
+
+" ********************************************************************
+" General settings
+" ********************************************************************
+
+" if hidden is not set, TextEdit might fail.
+set hidden
+
+set encoding=utf-8
 
 " ********************************************************************
 " Key bindings
@@ -94,9 +105,6 @@ set ru " Ruler active
 " ********************************************************************
 " All this below from CoC
 " ********************************************************************
-
-" if hidden is not set, TextEdit might fail.
-set hidden
 
 " Some servers have issues with backup files, see #649
 set nobackup
