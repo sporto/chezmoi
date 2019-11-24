@@ -18,6 +18,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('editorconfig/editorconfig-vim')
   call dein#add('flazz/vim-colorschemes')
   call dein#add('lotabout/skim') " Fuzzy finder
+  call dein#add('dyng/ctrlsf.vim')
   call dein#add('mattn/emmet-vim')
   call dein#add('sandeepcr529/Buffet.vim')
   call dein#add('scrooloose/nerdtree')
@@ -77,7 +78,14 @@ map <C-b> :Bufferlist<cr>
 nnoremap <C-p> :SK<Cr>
 
 " Find in files
-nnoremap <C-g> :Rg<Cr>
+nmap     <C-F>f <Plug>CtrlSFPrompt
+vmap     <C-F>f <Plug>CtrlSFVwordPath
+vmap     <C-F>F <Plug>CtrlSFVwordExec
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+nnoremap <C-F>o :CtrlSFOpen<CR>
+nnoremap <C-F>t :CtrlSFToggle<CR>
+inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 
 " ********************************************************************
 " Colours
