@@ -95,7 +95,7 @@ colorscheme jellybeans
 " ********************************************************************
 " Invisibles
 " ********************************************************************
-set listchars=tab:>-,trail:.,extends:#,precedes:<,nbsp:.    " show invisibles
+set listchars=tab:·\ ,trail:.,extends:#,precedes:<,nbsp:.    " show invisibles
 set list                                                    " :set spacevim_listchars
 set tabstop=4
 set shiftwidth=4 " Number of spaces use by autoindent
