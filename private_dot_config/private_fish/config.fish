@@ -16,3 +16,6 @@ source /Users/Sebastian/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or t
 # Direnv
 eval (direnv hook fish)
 
+# Volta Node version manager
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
