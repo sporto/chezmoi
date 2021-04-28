@@ -22,3 +22,6 @@ set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 # zoxide - cd replacement - https://github.com/ajeetdsouza/zoxide
 zoxide init fish | source
+
+# ASDF
+source ~/.asdf/asdf.fish
