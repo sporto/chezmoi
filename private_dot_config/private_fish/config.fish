@@ -25,3 +25,5 @@ zoxide init fish | source
 
 # ASDF
 source ~/.asdf/asdf.fish
+
+set -gx GOPRIVATE "github.com/staxio/pkg"
