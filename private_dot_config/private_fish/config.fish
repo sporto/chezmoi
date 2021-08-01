@@ -27,3 +27,6 @@ zoxide init fish | source
 source ~/.asdf/asdf.fish
 
 set -gx GOPRIVATE "github.com/staxio/pkg"
+
+# Starship Shell
+starship init fish | source
