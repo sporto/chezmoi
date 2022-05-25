@@ -1,4 +1,5 @@
-alias doc "docker-compose"
+alias doc "docker compose"
+alias docker-compose "docker compose"
 
 set -gx PATH ~/.local/bin $PATH
 set -gx PATH ~/bin $PATH
