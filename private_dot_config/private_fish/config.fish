@@ -30,3 +30,7 @@ set -gx GOPRIVATE "github.com/staxio/pkg"
 
 # Starship Shell
 starship init fish | source
+
+# https://github.com/cantino/mcfly
+# Search using ctrl+r
+mcfly init fish | source
