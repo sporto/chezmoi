@@ -1,5 +1,6 @@
 alias doc "docker compose"
 
+set -gx PATH /usr/local/bin $PATH
 set -gx PATH ~/.local/bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx PATH ~/bin/nu $PATH
@@ -17,14 +18,14 @@ source /Users/Sebastian/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or t
 eval (direnv hook fish)
 
 # Volta Node version manager
-set -gx VOLTA_HOME "$HOME/.volta"
-set -gx PATH "$VOLTA_HOME/bin" $PATH
+# set -gx VOLTA_HOME "$HOME/.volta"
+# set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 # zoxide - cd replacement - https://github.com/ajeetdsouza/zoxide
 zoxide init fish | source
 
 # ASDF
-source ~/.asdf/asdf.fish
+# source ~/.asdf/asdf.fish
 
 set -gx GOPRIVATE "github.com/staxio/pkg"
 
