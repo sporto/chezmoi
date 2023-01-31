@@ -1,0 +1,11 @@
+theme = "onedark"
+
+[editor]
+auto-completion = true
+rulers = [80]
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace]
+render = "all"
