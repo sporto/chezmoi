@@ -421,8 +421,10 @@ font:
 #   - (Windows) powershell
 shell:
   program: /Users/sebastian/.nix-profile/bin/fish
-#  args:
-#    - --login
+  args:
+    - -l
+    - -c
+    - zellij attach --index 0 || zellij
 
 # Startup directory
 #
