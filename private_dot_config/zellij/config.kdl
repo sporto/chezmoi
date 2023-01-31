@@ -24,7 +24,7 @@ default_shell "fish"
 //   - true (default)
 //   - false
 //
-pane_frames false
+// pane_frames false
 
 // Choose the theme that is specified in the themes section.
 // Default: default
@@ -101,3 +101,4 @@ pane_frames false
 // The folder in which Zellij will look for themes
 //
 // theme_dir "/path/to/my/theme_dir"
+
