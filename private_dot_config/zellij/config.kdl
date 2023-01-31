@@ -102,3 +102,8 @@ default_shell "fish"
 //
 // theme_dir "/path/to/my/theme_dir"
 
+keybinds {
+    unbind "Ctrl s" // search - unbind in all modes
+    unbind "Ctrl o" // session - unbind in all modes
+    unbind "Ctrl q" // quit - unbind in all modes
+}
