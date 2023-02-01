@@ -2,10 +2,18 @@ theme = "onedark"
 
 [editor]
 auto-completion = true
+color-modes = true
 rulers = [80]
+bufferline = "always"
 
 [editor.file-picker]
 hidden = false
 
 [editor.whitespace]
 render = "all"
+
+[keys.normal]
+C-s = ":w"
+# Move lines up or down
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
