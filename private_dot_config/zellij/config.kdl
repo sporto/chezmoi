@@ -106,4 +106,10 @@ keybinds {
     unbind "Ctrl s" // search - unbind in all modes
     unbind "Ctrl o" // session - unbind in all modes
     unbind "Ctrl q" // quit - unbind in all modes
+
+    normal {
+        bind "Alt j" { MoveFocus "Left"; }
+        bind "Alt k" { MoveFocus "Down"; }
+        bind "Alt i" { MoveFocus "Up"; }
+    }
 }
