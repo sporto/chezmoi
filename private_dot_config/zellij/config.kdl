@@ -137,10 +137,10 @@ keybinds {
     unbind "Ctrl o" // session - unbind in all modes
     unbind "Ctrl q" // quit - unbind in all modes
 
-    normal {
-        unbind "Alt h"
-        bind "Alt j" { MoveFocus "Left"; }
-        bind "Alt k" { MoveFocus "Down"; }
-        bind "Alt i" { MoveFocus "Up"; }
-    }
+    // normal {
+    //     unbind "Alt h"
+    //     bind "Alt j" { MoveFocus "Left"; }
+    //     bind "Alt k" { MoveFocus "Down"; }
+    //     bind "Alt i" { MoveFocus "Up"; }
+    // }
 }
