@@ -420,7 +420,7 @@ font:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /Users/sebastian/.nix-profile/bin/fish
+  program: {{ .chezmoi.homeDir }}/.nix-profile/bin/fish
   args:
     - -l
     - -c
