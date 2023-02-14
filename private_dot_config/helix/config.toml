@@ -12,7 +12,7 @@ hidden = false
 [editor.whitespace]
 render = "all"
 
-# [keys.normal]
+[keys.normal]
 # h = "insert_mode"
 # i = "move_line_up"
 # j = "move_char_left"
